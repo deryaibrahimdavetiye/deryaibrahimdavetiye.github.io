@@ -221,7 +221,7 @@
 
   function configureLinks() {
     const names = `${config.bride} & ${config.groom}`;
-    // Keep the URL first and by itself so WhatsApp can reliably generate the image preview.\n    const text = shareUrl;\n    $('#whatsapp-link').href = `https://wa.me/?text=${encodeURIComponent(text)}`;
+    $('#whatsapp-link').href = `https://wa.me/?text=${encodeURIComponent(shareUrl)}`;
     const stamp = (value) => new Date(value).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
     const params = new URLSearchParams({
       action: 'TEMPLATE', text: `${names} · Düğün`,

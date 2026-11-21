@@ -10,7 +10,7 @@ window.INVITATION = {
   "timeZone": "Europe/Istanbul",
   "utcOffset": "+03:00",
   "publicUrl": "https://deryaibrahimdavetiye.github.io/",
-  "shareUrl": "https://deryaibrahimdavetiye.github.io/",
+  "shareUrl": "https://deryaibrahimdavetiye.github.io/?v=7",
   "venue": {
     "name": "Asrena Taşev",
     "address": "Selçuk Bey, 745. Sk. No:1, 20100 Denizli",
